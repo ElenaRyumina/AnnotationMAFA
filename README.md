@@ -2,7 +2,7 @@
 
 The global spread of the COVID-19 coronavirus pandemic has led to numerous consequences in our everyday life, including the emergency of a social distance and a ``mask`` culture. This repository are proposed the annotation for ``MAsked FAce`` (MAFA ([Ge et al., 2017](https://openaccess.thecvf.com/content_cvpr_2017/html/Ge_Detecting_Masked_Faces_CVPR_2017_paper.html))) suitable for the implementation of methods for tracking the presence/absence of a protective mask on people's faces.
 
-MAFA contains 30,811 images, 35,806 detected faces belong to the ``masked face`` class.  MAFA was divided into train and test sets. Train set contains 25876 images files, test set - 4935 images files. 
+MAFA contains 30811 images, 35806 detected faces belong to the ``masked face`` class.  MAFA was divided into train and test sets. Train set contains 25876 images files, test set - 4935 images files. 
 Despite the fact that to date the MAFA database is the largest among counterparts, it has a serious drawback: presented labels are incorrect since any overlap of the face is considered as the ``masked face`` class, it is also worth noting that there are no  clear labels, for example, ``protective mask``, ``microphone`` or  ``clown nose``, which means that for more correct use of it, repeated manual annotation is necessary. The annotation of the train and test sets were performed according to the following rules:
 
 − ``Unmasked face``, i.e. mouth and nose are opened (0 class);

@@ -20,7 +20,8 @@ The ``protective mask`` class includes various medical masks, respirators, color
 | Set | 0 class | 1 class | 2 class | 3 class |
 | - | ---- | ---- | ---- | ---- |
 | Train| 1644| 23889 | 715 | 3204| 
-| Test| 2470 | 5140 | 192 | 2203|
+| Test full| 2470 | 5140 | 192 | 2203|
+| Test short (is used in [Ruymina al., 2021](https://doi.org/10.5194/isprs-archives-XLIV-2-W1-2021-177-2021))| 447 | 3707 | 128 | 653|
 
 ### Links to papers
 
